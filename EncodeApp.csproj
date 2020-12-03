@@ -3,8 +3,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <AssemblyName>EncordApp</AssemblyName>
-    <RootNamespace>EncordApp</RootNamespace>
+    <AssemblyName>EncodeApp</AssemblyName>
+    <RootNamespace>EncodeApp</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Base64UrlCore" Version="1.2.0" />
