@@ -1,17 +1,17 @@
 ﻿using Prism.Ioc;
-using TodoApp.Views;
+using EncodeApp.Views;
 using System.Windows;
 using System.Threading;
 using Prism.Regions;
 using Prism.Modularity;
 using Prism.Mvvm;
 using Prism.Unity;
-using TodoApp.Model;
-using TodoApp.ViewModels;
+using EncodeApp.Model;
+using EncodeApp.ViewModels;
 
 
 
-namespace TodoApp
+namespace EncodeApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

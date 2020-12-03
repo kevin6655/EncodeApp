@@ -2,14 +2,14 @@
 using Prism.Events;
 using Reactive.Bindings;
 using System.Windows.Forms;
-using TodoApp.Model;
+using EncodeApp.Model;
 using Unity;
 using System.Reactive.Disposables;
 using Reactive.Bindings.Extensions;
 using System;
 using System.Reactive.Linq;
 
-namespace TodoApp.ViewModels
+namespace EncodeApp.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {

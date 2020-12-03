@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TodoApp.Model
+namespace EncodeApp.Model
 {
     public interface IDecoding
     {

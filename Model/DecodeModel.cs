@@ -4,7 +4,7 @@ using System.Text;
 using Base64UrlCore;
 using System.Web;
 
-namespace TodoApp.Model
+namespace EncodeApp.Model
 {
     class DecodeModel:IDecoding
     {

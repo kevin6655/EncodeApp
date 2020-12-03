@@ -3,7 +3,7 @@ using System.Windows;
 using NLog;
 
 
-namespace TodoApp.Views
+namespace EncodeApp.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
