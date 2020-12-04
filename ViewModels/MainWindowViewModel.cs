@@ -44,27 +44,27 @@ namespace EncodeApp.ViewModels
         {
             this.Title = new ReactiveProperty<string>("Hello Encode").AddTo(_cd);
             this.Result = new ReactiveProperty<string>().AddTo(_cd);
-            B64_E_Click.Subscribe(B64Ecording).AddTo(_cd);
-            B64_D_Click.Subscribe(B64Decording).AddTo(_cd);
-            U8_E_Click.Subscribe(U8Encording).AddTo(_cd);
-            U8_D_Click.Subscribe(U8Decording).AddTo(_cd);
+            B64_E_Click.Subscribe(B64Decoding).AddTo(_cd);
+            B64_D_Click.Subscribe(B64Ecoding).AddTo(_cd);
+            U8_E_Click.Subscribe(U8Encoding).AddTo(_cd);
+            U8_D_Click.Subscribe(U8Decoding).AddTo(_cd);
             Reset_Click.Subscribe(StringReset).AddTo(_cd);
         }
 
 
-        private void B64Decording() 
+        private void B64Decoding() 
         {
             Result.Value = Decoding.Base64DecordString(Input.Value);
         }
-        private void B64Ecording()
+        private void B64Ecoding()
         {
             Result.Value = Encoding.Base64EncordString(Input.Value);
         }
-        private void U8Decording()
+        private void U8Decoding()
         {
             Result.Value = Decoding.Utf8DecordString(Input.Value);
         }
-        private void U8Encording()
+        private void U8Encoding()
         {
             Result.Value = Encoding.Utf8EncordString(Input.Value);
         }
